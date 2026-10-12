@@ -1,0 +1,138 @@
+/* Local presentation layer over AcademicPages. No external font dependency. */
+html {
+  scroll-padding-top: 6rem;
+}
+
+#main {
+  max-width: 1120px;
+  margin-top: 2.6rem;
+}
+
+.masthead__inner-wrap {
+  max-width: 1120px;
+}
+
+.page__title {
+  font-size: 1.75rem;
+  line-height: 1.25;
+  letter-spacing: -0.025em;
+}
+
+.page__content {
+  font-size: 0.9rem;
+  line-height: 1.72;
+}
+
+.page,
+.page__inner-wrap {
+  display: flow-root;
+}
+
+.academic-section {
+  scroll-margin-top: 1rem;
+}
+
+.academic-introduction {
+  color: var(--global-text-color);
+  font-size: 1.02em;
+  font-weight: 500;
+}
+
+.page__content h2 {
+  font-size: 1.32rem;
+  margin-top: 2.5rem;
+  padding-bottom: 0.6rem;
+}
+
+.page__content #research ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.page__content #research li {
+  margin: 0;
+  padding: 1rem 0;
+  border-bottom: 1px solid var(--global-border-color);
+}
+
+.page__content #research li:last-child {
+  border-bottom: 0;
+  padding-bottom: 0;
+}
+
+.page__content #research strong:first-child {
+  font-weight: 650;
+}
+
+.page__content #interests li {
+  margin-bottom: 0.48rem;
+}
+
+.author__avatar img {
+  max-width: 170px;
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+
+.author__bio {
+  line-height: 1.65;
+}
+
+.page__footer {
+  margin-top: 3rem;
+}
+
+@media (min-width: 1024px) {
+  #main {
+    display: grid;
+    grid-template-columns: 230px minmax(0, 1fr);
+    gap: 56px;
+  }
+
+  #main::before,
+  #main::after {
+    display: none;
+  }
+
+  #main > .sidebar,
+  #main > .page {
+    float: none;
+    width: auto;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  #main > .sidebar.sticky {
+    align-self: start;
+    position: sticky;
+    top: 6rem;
+  }
+}
+
+@media (max-width: 600px) {
+  #main {
+    margin-top: 1.4rem;
+  }
+
+  .page__title {
+    font-size: 1.45rem;
+  }
+
+  .page__content {
+    font-size: 0.95rem;
+    overflow-wrap: anywhere;
+  }
+
+  .page__content h2 {
+    font-size: 1.25rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
