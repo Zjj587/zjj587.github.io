@@ -1,0 +1,69 @@
+- id: mild-aprilvins
+  label: MILD and AprilVINS
+  title: "Towards Accurate End-Effector Localization for UMI-Style Robotic Manipulation Teaching"
+  authors: [Junjie Zhang, Deteng Zhang, Zhisong Xu, Bo Sun, Liuyang Li, Yihong Tian, Jie Yin]
+  venue: "arXiv preprint · 2026"
+  url: https://arxiv.org/abs/2610.09857
+  links:
+    - label: Preprint
+      url: https://arxiv.org/abs/2610.09857
+    - label: Project page
+      url: https://mild-web.github.io/
+
+- id: nidar
+  label: NIDAR
+  title: "NIDAR: NIR-Guided Intrinsic Decomposition for Scalable Scene-Agnostic LiDAR Intensity Reconstruction"
+  authors: [Junjie Zhang, Jie Yin, Kefei Qian, Jie Li, Mengpei Jia, Yajuan Dun, Wenbo Chu, Guofa Li]
+  venue: "IROS 2026"
+  url: https://arxiv.org/abs/2609.36878
+  links:
+    - label: Preprint
+      url: https://arxiv.org/abs/2609.36878
+    - label: Project page
+      url: https://nidar-web.github.io/
+
+- id: ultra-fusion
+  label: Ultra-Fusion
+  title: "Ultra-Fusion: A Resilient Tightly-Coupled Multi-Sensor Fusion SLAM Framework under Sensor Degradation and Spatiotemporal Perturbation for Intelligent Transportation Systems"
+  authors: [Yihong Tian, Junjie Zhang, Liuyang Li, Deteng Zhang, Yunfei Zuo, Jie Yin]
+  venue: "arXiv preprint · 2026"
+  url: https://arxiv.org/abs/2606.21223
+  links:
+    - label: Preprint
+      url: https://arxiv.org/abs/2606.21223
+    - label: Code
+      url: https://github.com/sjtuyinjie/Ultra-Fusion/
+
+- id: apgc-lviw
+  label: APGC-LVIW
+  title: "APGC-LVIW: LiDAR-visual-inertial-wheel SLAM with adaptive planar geometric constraints"
+  authors: [Yan Sun, Lu Zhou, Wanbiao Lin, Junjie Zhang, LiangBo Hu, Bowen Peng, Jinlin Xiong, Lei Sun]
+  venue: "Measurement and Control · 2025"
+  url: https://doi.org/10.1177/00202940251407204
+  links:
+    - label: Paper
+      url: https://doi.org/10.1177/00202940251407204
+
+- id: ground-fusion-m3dgr
+  label: Ground-Fusion++ and M3DGR
+  title: "Towards Robust Sensor-Fusion Ground SLAM: A Comprehensive Benchmark and A Resilient Framework"
+  authors: [Deteng Zhang, Junjie Zhang, Yan Sun, Tao Li, Hao Yin, Hongzhao Xie, Jie Yin]
+  venue: "IROS 2025"
+  url: https://arxiv.org/abs/2507.08364
+  links:
+    - label: Preprint
+      url: https://arxiv.org/abs/2507.08364
+    - label: Code
+      url: https://github.com/sjtuyinjie/Ground-Fusion2
+    - label: Dataset
+      url: https://github.com/sjtuyinjie/M3DGR
+
+- id: eight-legged-robot
+  label: Eight-legged bionic robot
+  title: "Structure and Gait Design of an Eight-legged Bionic Robot"
+  authors: [Junjie Zhang, Jianping Tan, Ling Tang]
+  venue: "ISRIMT 2023"
+  url: https://doi.org/10.1109/ISRIMT59937.2023.10428599
+  links:
+    - label: Paper
+      url: https://doi.org/10.1109/ISRIMT59937.2023.10428599

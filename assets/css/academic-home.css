@@ -61,12 +61,56 @@ html {
   padding-bottom: 0;
 }
 
-.page__content #research strong:first-child {
+.page__content .publication__title {
+  margin: 0 0 0.45rem;
+  font-size: 1em;
+  font-weight: 650;
+  line-height: 1.5;
+}
+
+.publication__title a {
+  color: var(--global-text-color);
+  text-decoration: none;
+}
+
+.publication__title a:hover,
+.publication__title a:focus-visible {
+  color: var(--global-link-color);
+  text-decoration: underline;
+}
+
+.page__content .publication__authors {
+  margin: 0 0 0.35rem;
+  font-size: 0.9em;
+  line-height: 1.65;
+}
+
+.publication__authors strong {
   font-weight: 650;
 }
 
-.page__content #interests li {
-  margin-bottom: 0.48rem;
+.page__content .publication__venue {
+  margin: 0 0 0.55rem;
+  font-size: 0.9em;
+  font-style: italic;
+  color: var(--global-text-color);
+}
+
+.publication__links {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.3rem 0.9rem;
+  font-size: 0.88em;
+}
+
+.publication__links a {
+  text-decoration: none;
+}
+
+.publication__links a:hover,
+.publication__links a:focus-visible {
+  text-decoration: underline;
 }
 
 .author__avatar img {
