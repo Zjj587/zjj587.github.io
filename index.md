@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Junjie Zhang | 张骏杰"
+title: 'Junjie Zhang \| 张骏杰'
 permalink: /
 author_profile: true
 ---
