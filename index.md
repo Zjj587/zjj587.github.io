@@ -22,15 +22,18 @@ Hi, I'm **Junjie Zhang (张骏杰)**, a self-motivated researcher with a deep in
 
 <ul class="publication-list">
 {% for paper in site.data.publications %}
-  <li class="publication" id="{{ paper.id }}">
-    <h3 class="publication__title"><a href="{{ paper.url }}">{{ paper.title }}</a></h3>
-    <p class="publication__authors">{% for author in paper.authors %}{% if author == 'Junjie Zhang' %}<strong>{{ author }}</strong>{% else %}{{ author }}{% endif %}{% unless forloop.last %}, {% endunless %}{% endfor %}</p>
-    <p class="publication__venue">{{ paper.venue }}</p>
-    <nav class="publication__links" aria-label="Resources for {{ paper.label }}">
-      {% for link in paper.links %}<a href="{{ link.url }}">{{ link.label }}</a>{% endfor %}
-      <a href="{{ site.url }}{{ site.baseurl }}/assets/bib/{{ paper.id }}.bib">BibTeX</a>
-    </nav>
-  </li>
+<li class="publication{% unless paper.image %} publication--text-only{% endunless %}" id="{{ paper.id }}">
+{% if paper.image %}<a class="publication__media" href="{{ paper.url }}" aria-label="Read {{ paper.title }}"><img src="{{ site.url }}{{ site.baseurl }}/{{ paper.image }}" alt="{{ paper.image_alt }}" loading="lazy" decoding="async"></a>{% endif %}
+<div class="publication__content">
+<h3 class="publication__title"><a href="{{ paper.url }}">{{ paper.title }}</a></h3>
+<p class="publication__authors">{% for author in paper.authors %}{% if author == 'Junjie Zhang' %}<strong>{{ author }}</strong>{% else %}{{ author }}{% endif %}{% unless forloop.last %}, {% endunless %}{% endfor %}</p>
+<p class="publication__venue">{{ paper.venue }}</p>
+<nav class="publication__links" aria-label="Resources for {{ paper.label }}">
+{% for link in paper.links %}<a href="{{ link.url }}">{{ link.label }}</a>{% endfor %}
+<a href="{{ site.url }}{{ site.baseurl }}/assets/bib/{{ paper.id }}.bib">BibTeX</a>
+</nav>
+</div>
+</li>
 {% endfor %}
 </ul>
 

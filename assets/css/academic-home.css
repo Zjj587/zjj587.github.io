@@ -52,8 +52,50 @@ html {
 
 .page__content #research li {
   margin: 0;
-  padding: 1rem 0;
+  padding: 1.35rem 0;
   border-bottom: 1px solid var(--global-border-color);
+}
+
+.publication {
+  display: grid;
+  grid-template-columns: clamp(150px, 27%, 220px) minmax(0, 1fr);
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.publication--text-only {
+  grid-template-columns: minmax(0, 1fr);
+}
+
+.publication__media {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  aspect-ratio: 3 / 2;
+  width: 100%;
+  overflow: hidden;
+  border: 1px solid #e1e7ee;
+  border-radius: 5px;
+  background: #fff;
+  padding: 0.25rem;
+  text-decoration: none;
+}
+
+.publication__media:hover,
+.publication__media:focus-visible {
+  border-color: #6485b1;
+}
+
+.publication__media img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  margin: 0;
+}
+
+.publication__content {
+  min-width: 0;
 }
 
 .page__content #research li:last-child {
@@ -69,7 +111,7 @@ html {
 }
 
 .publication__title a {
-  color: var(--global-text-color);
+  color: var(--global-link-color);
   text-decoration: none;
 }
 
@@ -90,9 +132,13 @@ html {
 }
 
 .page__content .publication__venue {
-  margin: 0 0 0.55rem;
-  font-size: 0.9em;
-  font-style: italic;
+  display: inline-block;
+  margin: 0 0 0.65rem;
+  padding: 0.08rem 0.45rem;
+  border: 1px solid var(--global-border-color);
+  border-radius: 3px;
+  font-size: 0.8em;
+  font-weight: 500;
   color: var(--global-text-color);
 }
 
@@ -100,17 +146,43 @@ html {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  gap: 0.3rem 0.9rem;
-  font-size: 0.88em;
+  gap: 0.35rem 0.45rem;
+  font-size: 0.82em;
 }
 
 .publication__links a {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.16rem 0.52rem;
+  min-height: 1.65rem;
+  border: 1px solid var(--global-border-color);
+  border-radius: 3px;
+  line-height: 1.4;
+  color: var(--global-link-color);
   text-decoration: none;
 }
 
 .publication__links a:hover,
 .publication__links a:focus-visible {
-  text-decoration: underline;
+  border-color: var(--global-link-color);
+  text-decoration: none;
+}
+
+@media (max-width: 700px) {
+  .publication {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 0.9rem;
+    align-items: start;
+  }
+
+  .publication__media {
+    max-width: 340px;
+    justify-self: start;
+  }
+
+  .publication__links a {
+    min-height: 2rem;
+  }
 }
 
 .author__avatar img {

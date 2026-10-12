@@ -1,5 +1,7 @@
 - id: mild-aprilvins
   label: MILD and AprilVINS
+  image: assets/publications/mild-aprilvins.png
+  image_alt: "MILD real-world acquisition setup and task overview from the paper"
   title: "Towards Accurate End-Effector Localization for UMI-Style Robotic Manipulation Teaching"
   authors: [Junjie Zhang, Deteng Zhang, Zhisong Xu, Bo Sun, Liuyang Li, Yihong Tian, Jie Yin]
   venue: "arXiv preprint · 2026"
@@ -12,6 +14,8 @@
 
 - id: nidar
   label: NIDAR
+  image: assets/publications/nidar.jpg
+  image_alt: "NIDAR illustration from the co-author's public publication page"
   title: "NIDAR: NIR-Guided Intrinsic Decomposition for Scalable Scene-Agnostic LiDAR Intensity Reconstruction"
   authors: [Junjie Zhang, Jie Yin, Kefei Qian, Jie Li, Mengpei Jia, Yajuan Dun, Wenbo Chu, Guofa Li]
   venue: "IROS 2026"
@@ -24,6 +28,8 @@
 
 - id: ultra-fusion
   label: Ultra-Fusion
+  image: assets/publications/ultra-fusion.png
+  image_alt: "Ultra-Fusion illustration from the co-author's public publication page"
   title: "Ultra-Fusion: A Resilient Tightly-Coupled Multi-Sensor Fusion SLAM Framework under Sensor Degradation and Spatiotemporal Perturbation for Intelligent Transportation Systems"
   authors: [Yihong Tian, Junjie Zhang, Liuyang Li, Deteng Zhang, Yunfei Zuo, Jie Yin]
   venue: "arXiv preprint · 2026"
@@ -36,6 +42,8 @@
 
 - id: apgc-lviw
   label: APGC-LVIW
+  image: assets/publications/apgc-lviw.jpg
+  image_alt: "APGC-LVIW mapping comparison in the paper's Figure 2"
   title: "APGC-LVIW: LiDAR-visual-inertial-wheel SLAM with adaptive planar geometric constraints"
   authors: [Yan Sun, Lu Zhou, Wanbiao Lin, Junjie Zhang, LiangBo Hu, Bowen Peng, Jinlin Xiong, Lei Sun]
   venue: "Measurement and Control · 2025"
@@ -46,6 +54,8 @@
 
 - id: ground-fusion-m3dgr
   label: Ground-Fusion++ and M3DGR
+  image: assets/publications/ground-fusion-m3dgr.png
+  image_alt: "Ground-Fusion++ and M3DGR illustration from the co-author's public publication page"
   title: "Towards Robust Sensor-Fusion Ground SLAM: A Comprehensive Benchmark and A Resilient Framework"
   authors: [Deteng Zhang, Junjie Zhang, Yan Sun, Tao Li, Hao Yin, Hongzhao Xie, Jie Yin]
   venue: "IROS 2025"
@@ -60,6 +70,8 @@
 
 - id: eight-legged-robot
   label: Eight-legged bionic robot
+  image: assets/publications/eight-legged-robot.png
+  image_alt: "Eight-legged bionic robot illustration supplied by Junjie Zhang"
   title: "Structure and Gait Design of an Eight-legged Bionic Robot"
   authors: [Junjie Zhang, Jianping Tan, Ling Tang]
   venue: "ISRIMT 2023"
