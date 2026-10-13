@@ -96,6 +96,12 @@
       {% endif %}      
 
       <!-- Font Awesome icons / Social media -->
+      {% if author.xiaohongshu %}
+        <li><a href="{{ author.xiaohongshu }}"><i class="fas fa-fw fa-book-open icon-pad-right" aria-hidden="true"></i>Xiaohongshu</a></li>
+      {% endif %}
+      {% if author.bilibili %}
+        <li><a href="{{ author.bilibili }}"><i class="fab fa-fw fa-bilibili icon-pad-right" aria-hidden="true"></i>Bilibili</a></li>
+      {% endif %}
       {% if author.artstation %}
         <li><a href="https://www.artstation.com/{{ author.artstation }}"><i class="fab fa-fw fa-artstation icon-pad-right" aria-hidden="true"></i>Artstation</a></li>
       {% endif %}        
