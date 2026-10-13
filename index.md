@@ -13,8 +13,6 @@ My work spans multi-sensor fusion SLAM, LiDAR intensity simulation, and end-effe
 
 I am actively seeking robotics research and engineering roles, PhD opportunities, and like-minded co-founders to build a robotics venture.
 
-[Xiaohongshu](https://www.xiaohongshu.com/user/profile/654cda6b0000000008003b9d) · [Bilibili](https://space.bilibili.com/266735709?spm_id_from=333.1007.0.0)
-
 </section>
 
 <section id="education" class="academic-section" markdown="1">
