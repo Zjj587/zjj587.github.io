@@ -199,6 +199,25 @@ html {
   margin-top: 3rem;
 }
 
+.page__content .academic-vision__figure {
+  margin: 1rem 0 0;
+}
+
+.academic-vision__figure img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0;
+  border-radius: 4px;
+}
+
+.academic-vision__figure figcaption {
+  margin-top: 0.55rem;
+  font-size: 0.78em;
+  line-height: 1.5;
+  color: var(--global-text-color-light);
+}
+
 @media (min-width: 1024px) {
   #main {
     display: grid;

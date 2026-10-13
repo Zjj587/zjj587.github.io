@@ -11,7 +11,18 @@ I am a master's student at **Chongqing University**, expected to graduate in **2
 
 My work spans multi-sensor fusion SLAM, LiDAR intensity simulation, and end-effector localization, combining algorithm development with datasets and benchmarking. During internships at **Shanghai AI Lab**, **PokeBot**, and **ENGINEAI**, I worked on UMI (Universal Manipulation Interface) and whole-body UMI systems. My long-term goal is to contribute to the development of **Physical AGI**.
 
+I am actively seeking robotics research and engineering roles, PhD opportunities, and like-minded co-founders to build a robotics venture.
+
 [Xiaohongshu](https://www.xiaohongshu.com/user/profile/654cda6b0000000008003b9d) · [Bilibili](https://space.bilibili.com/266735709?spm_id_from=333.1007.0.0)
+
+</section>
+
+<section id="education" class="academic-section" markdown="1">
+
+## Education
+
+- **2024–2027 (expected)** — Master’s in Mechanical Engineering, **Chongqing University**.
+- **2020–2024** — Bachelor’s in Mechanical Design, Manufacturing and Automation, **China University of Petroleum (Beijing)**.
 
 </section>
 
@@ -35,5 +46,18 @@ My work spans multi-sensor fusion SLAM, LiDAR intensity simulation, and end-effe
 </li>
 {% endfor %}
 </ul>
+
+</section>
+
+<section id="vision" class="academic-section" markdown="1">
+
+## Vision
+
+I envision a future where robots help us build the world around us. I hope to find like-minded partners to turn that vision into reality.
+
+<figure class="academic-vision__figure">
+<img src="{{ site.url }}{{ site.baseurl }}/assets/vision/robot.png" alt="A robot-assisted future depicted in The Wandering Earth II" width="1698" height="612" loading="lazy" decoding="async">
+<figcaption>Film still from <em>The Wandering Earth II</em> (2023).</figcaption>
+</figure>
 
 </section>
